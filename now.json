@@ -1,0 +1,12 @@
+{
+    "name": "Main website",
+    "version": 2,
+    "scope": "solestium",
+    "alias": "solestium.nl",
+    "builds": [
+        {
+            "src": "next.config.js",
+            "use": "@now/next"
+        }
+    ]
+}
