@@ -29,6 +29,13 @@ export default ({ children }) => (
         max-width: 1200px;
         margin: 0 auto;
       }
+
+      .content {
+        color: #676767;
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+      }
     `}</style>
   </Fragment>
 )

@@ -7,7 +7,7 @@ export default () => (
 
     <div className="content">
       <div className="container">
-        Erooi wordt gebruikt als email proxy. Wanneer klanten hun email niet goed hebben opgezet worden emails namens erooi verstuurd.
+        Een te ontwikkelen applicatie. Meer informatie volgt snel.
       </div>
     </div>
   </Page>

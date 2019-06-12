@@ -15,6 +15,9 @@ export default () => (
           <li>
             <Link href="/projects/gkdp"><a>Gkdp</a></Link>
           </li>
+          <li>
+            <Link href="/projects/foodrink"><a>Foodrink</a></Link>
+          </li>
         </ul>
       </div>
     </div>
