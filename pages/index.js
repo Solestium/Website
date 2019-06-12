@@ -1,11 +1,23 @@
 function Home() {
   return (
     <div className="container">
-      <div className="title">GKDP</div>
+      <div className="title">Solestium</div>
 
+      <style jsx global>{`
+        html,
+        body,
+        #__next {
+          height: 100%;
+        }
+
+        #__next {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      `}</style>
       <style jsx>{`
         .container {
-          padding-top: 2rem;
           display: flex;
           justify-content: center;
         }
