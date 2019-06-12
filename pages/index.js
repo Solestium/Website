@@ -1,33 +1,53 @@
-function Home() {
-  return (
-    <div className="container">
+import Page from '../layouts/app';
+
+export default () => (
+  <Page>
+    <div className="list">
       <div className="title">Solestium</div>
 
-      <style jsx global>{`
-        html,
-        body,
-        #__next {
-          height: 100%;
-        }
-
-        #__next {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      `}</style>
-      <style jsx>{`
-        .container {
-          display: flex;
-          justify-content: center;
-        }
-
-        .title {
-          font-size: 3rem;
-        }
-      `}</style>
+      <div className="projects">
+        <ul>
+          <li>
+            <a href="#" onClick={(e) => e.preventDefault()}>Erooi</a>
+          </li>
+          <li>
+            <a href="#" onClick={(e) => e.preventDefault()}>Gkdp</a>
+          </li>
+          <li>
+            <a href="#" onClick={(e) => e.preventDefault()}>Fortizar</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  );
-}
 
-export default Home;
+    <style jsx>{`
+      .list {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .title {
+        font-size: 3rem;
+      }
+
+      .projects ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      .projects ul li a {
+        color: #8e8e8e;
+        text-decoration: none;
+        margin: 0 .5rem;
+        transition: all .2s ease;
+      }
+
+      .projects ul li a:hover {
+        color: #d3d3d3;
+      }
+    `}</style>
+  </Page>
+)
