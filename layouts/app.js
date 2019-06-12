@@ -4,6 +4,8 @@ import { Fragment } from 'react';
 export default ({ children }) => (
   <Fragment>
     <Head>
+      <title>Solestium</title>
+
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css" />
     </Head>
@@ -21,10 +23,9 @@ export default ({ children }) => (
         margin: 0;
       }
 
-      #__next {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
       }
     `}</style>
 

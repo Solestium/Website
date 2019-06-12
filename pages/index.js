@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Page from '../layouts/app';
 
 export default () => (
@@ -8,18 +10,22 @@ export default () => (
       <div className="projects">
         <ul>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>Erooi</a>
+            <Link href="/projects/erooi"><a>Erooi</a></Link>
           </li>
           <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>Gkdp</a>
-          </li>
-          <li>
-            <a href="#" onClick={(e) => e.preventDefault()}>Fortizar</a>
+            <Link href="/projects/gkdp"><a>Gkdp</a></Link>
           </li>
         </ul>
       </div>
     </div>
 
+    <style jsx global>{`
+      #__next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    `}</style>
     <style jsx>{`
       .list {
         display: flex;
@@ -43,6 +49,7 @@ export default () => (
         text-decoration: none;
         margin: 0 .5rem;
         transition: all .2s ease;
+        letter-spacing: 1px;
       }
 
       .projects ul li a:hover {
