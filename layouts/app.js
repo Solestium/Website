@@ -10,6 +10,8 @@ export default ({ children }) => (
       <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css" />
     </Head>
 
+    {children}
+
     <style jsx global>{`
       body {
         font: 16px Nunito, menlo;
@@ -28,7 +30,5 @@ export default ({ children }) => (
         margin: 0 auto;
       }
     `}</style>
-
-    {children}
   </Fragment>
 )

@@ -7,7 +7,7 @@ export default () => (
 
     <div className="content">
       <div className="container">
-        Wordt gebruikt als ssh tunnel. Hierdoor kan eenvoudig en veilig een verbinding worden opengezet om lokale projecten toegankelijk te maken voor iedereen op het internet.
+        Fortizar is een persoonlijk domeinnaam voor projecten. Ook wordt onder dit domein Harbor gehost.
       </div>
     </div>
 
