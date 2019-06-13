@@ -10,5 +10,7 @@ export default () => (
         Fortizar is een persoonlijk domeinnaam voor projecten. Ook wordt onder dit domein Harbor gehost.
       </div>
     </div>
+
+    <Footer />
   </Page>
 )

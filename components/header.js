@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default ({ subtitle }) => (
+const Header = ({ subtitle }) => (
   <div className="top-bar">
     <div className="header">
       <div className="container">
@@ -51,3 +51,5 @@ export default ({ subtitle }) => (
     `}</style>
   </div>
 )
+
+export default Header

@@ -10,5 +10,7 @@ export default () => (
         Een te ontwikkelen applicatie. Meer informatie volgt snel.
       </div>
     </div>
+
+    <Footer />
   </Page>
 )

@@ -10,5 +10,7 @@ export default () => (
         Wordt gebruikt als ssh tunnel. Hierdoor kan eenvoudig en veilig een verbinding worden opengezet om lokale projecten toegankelijk te maken voor iedereen op het internet.
       </div>
     </div>
+
+    <Footer />
   </Page>
 )
