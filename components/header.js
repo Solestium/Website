@@ -1,12 +1,24 @@
 import Link from 'next/link';
 
-export default () => (
-  <div className="header">
-    <div className="container">
-      <div className="title">
-        <Link href="/"><a>Solestium</a></Link>
+export default ({ subtitle }) => (
+  <div className="top-bar">
+    <div className="header">
+      <div className="container">
+        <div className="title">
+          <Link href="/"><a>Solestium</a></Link>
+        </div>
       </div>
     </div>
+
+    {subtitle && (
+      <div className="sub-header">
+        <div className="container">
+          <div className="sub-title">
+            {subtitle}
+          </div>
+        </div>
+      </div>
+    )}
 
     <style jsx>{`
       .header {
@@ -20,6 +32,11 @@ export default () => (
 
       .title {
         font-size: 1.75rem;
+      }
+
+
+      .sub-title {
+        font-size: 1.25rem;
       }
 
       .title a {
