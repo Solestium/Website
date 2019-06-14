@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
-import Page from '../layouts/app';
+import Page from '../layouts/app'
 
 export default () => (
   <Page>
@@ -10,13 +10,19 @@ export default () => (
       <div className="projects">
         <ul>
           <li>
-            <Link href="/projects/erooi"><a>Erooi</a></Link>
+            <Link href="/projects/erooi">
+              <a>Erooi</a>
+            </Link>
           </li>
           <li>
-            <Link href="/projects/gkdp"><a>Gkdp</a></Link>
+            <Link href="/projects/gkdp">
+              <a>Gkdp</a>
+            </Link>
           </li>
           <li>
-            <Link href="/projects/foodrink"><a>Foodrink</a></Link>
+            <Link href="/projects/foodrink">
+              <a>Foodrink</a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -50,8 +56,8 @@ export default () => (
       .projects ul li a {
         color: #8e8e8e;
         text-decoration: none;
-        margin: 0 .5rem;
-        transition: all .2s ease;
+        margin: 0 0.5rem;
+        transition: all 0.2s ease;
         letter-spacing: 1px;
       }
 

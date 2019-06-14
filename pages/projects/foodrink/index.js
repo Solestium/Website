@@ -1,6 +1,6 @@
-import Page from '../../../layouts/app';
-import Header from '../../../components/header';
-import Footer from '../../../components/footer';
+import Page from '../../../layouts/app'
+import Header from '../../../components/header'
+import Footer from '../../../components/footer'
 
 export default () => (
   <Page>

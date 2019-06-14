@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { Fragment } from 'react';
+import Head from 'next/head'
+import { Fragment } from 'react'
 
 export default ({ children }) => (
   <Fragment>
@@ -7,12 +7,14 @@ export default ({ children }) => (
       <title>Solestium</title>
 
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Nunito"
+        rel="stylesheet"
+        type="text/css"
+      />
     </Head>
 
-    <main>
-      {children}
-    </main>
+    <main>{children}</main>
 
     <style jsx global>{`
       body {

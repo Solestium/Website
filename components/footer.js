@@ -1,9 +1,11 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const Footer = () => (
   <div className="footer">
     <div className="container">
-      <Link href="/"><a>Ga terug</a></Link>
+      <Link href="/">
+        <a>Ga terug</a>
+      </Link>
     </div>
 
     <style jsx>{`

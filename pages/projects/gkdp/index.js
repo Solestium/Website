@@ -1,6 +1,6 @@
-import Page from '../../../layouts/app';
-import Header from '../../../components/header';
-import Footer from '../../../components/footer';
+import Page from '../../../layouts/app'
+import Header from '../../../components/header'
+import Footer from '../../../components/footer'
 
 export default () => (
   <Page>
@@ -8,7 +8,9 @@ export default () => (
 
     <div className="content">
       <div className="container">
-        Wordt gebruikt als ssh tunnel. Hierdoor kan eenvoudig en veilig een verbinding worden opengezet om lokale projecten toegankelijk te maken voor iedereen op het internet.
+        Wordt gebruikt als ssh tunnel. Hierdoor kan eenvoudig en veilig een
+        verbinding worden opengezet om lokale projecten toegankelijk te maken
+        voor iedereen op het internet.
       </div>
     </div>
 

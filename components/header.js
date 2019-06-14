@@ -1,11 +1,13 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const Header = ({ subtitle }) => (
   <div className="top-bar">
     <div className="header">
       <div className="container">
         <div className="title">
-          <Link href="/"><a>Solestium</a></Link>
+          <Link href="/">
+            <a>Solestium</a>
+          </Link>
         </div>
       </div>
     </div>
@@ -13,9 +15,7 @@ const Header = ({ subtitle }) => (
     {subtitle && (
       <div className="sub-header">
         <div className="container">
-          <div className="sub-title">
-            {subtitle}
-          </div>
+          <div className="sub-title">{subtitle}</div>
         </div>
       </div>
     )}
@@ -34,7 +34,6 @@ const Header = ({ subtitle }) => (
         font-size: 1.75rem;
       }
 
-
       .sub-title {
         font-size: 1.25rem;
       }
@@ -42,11 +41,11 @@ const Header = ({ subtitle }) => (
       .title a {
         color: #1a202c;
         text-decoration: none;
-        transition: all .2s ease;
+        transition: all 0.2s ease;
       }
 
       .title a:hover {
-        opacity: .6;
+        opacity: 0.6;
       }
     `}</style>
   </div>
