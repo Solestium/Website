@@ -10,7 +10,9 @@ export default ({ children }) => (
       <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css" />
     </Head>
 
-    {children}
+    <main>
+      {children}
+    </main>
 
     <style jsx global>{`
       body {
@@ -28,6 +30,7 @@ export default ({ children }) => (
       .container {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 1.5rem;
       }
 
       .content {
