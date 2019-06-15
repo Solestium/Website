@@ -20,6 +20,11 @@ export default () => (
             </Link>
           </li>
           <li>
+            <Link href="/projects/tarvos">
+              <a>Tarvos</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/projects/foodrink">
               <a>Foodrink</a>
             </Link>
@@ -43,6 +48,11 @@ export default () => (
 
       .title {
         font-size: 3rem;
+        text-align: center;
+      }
+
+      .projects {
+        text-align: center;
       }
 
       .projects ul {

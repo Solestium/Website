@@ -2,7 +2,7 @@ import Page from '../../../layouts/app'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
 
-export default () => (
+const Gkdp = () => (
   <Page>
     <Header subtitle="Gkdp" />
 
@@ -17,3 +17,5 @@ export default () => (
     <Footer />
   </Page>
 )
+
+export default Gkdp

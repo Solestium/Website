@@ -2,7 +2,7 @@ import Page from '../../../layouts/app'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
 
-export default () => (
+const Erooi = () => (
   <Page>
     <Header subtitle="Erooi" />
 
@@ -16,3 +16,5 @@ export default () => (
     <Footer />
   </Page>
 )
+
+export default Erooi
