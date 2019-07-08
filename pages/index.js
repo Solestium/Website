@@ -20,8 +20,8 @@ export default () => (
             </Link>
           </li>
           <li>
-            <Link href="/projects/tarvos">
-              <a>Tarvos</a>
+            <Link href="/projects/toddo">
+              <a>Toddo</a>
             </Link>
           </li>
           <li>

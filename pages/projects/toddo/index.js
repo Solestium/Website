@@ -2,13 +2,13 @@ import Page from '../../../layouts/app'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
 
-const Tarvos = () => (
+const Toddo = () => (
   <Page>
-    <Header subtitle="Tarvos" />
+    <Header subtitle="Toddo" />
 
     <div className="content">
       <div className="container">
-        Tarvos is een reserveringssysteem voor kleine campings, hotels en
+        Toddo is een reserveringssysteem voor kleine campings, hotels en
         groepaccommodaties.{' '}
         <a href="mailto:info@solestium.nl" className="link">
           Neem contact op
@@ -31,4 +31,4 @@ const Tarvos = () => (
   </Page>
 )
 
-export default Tarvos
+export default Toddo
