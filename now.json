@@ -1,13 +1,13 @@
 {
-    "name": "Main website",
-    "version": 2,
-    "scope": "solestium",
-    "alias": "solestium.nl",
-    "regions": ["bru"],
-    "builds": [
-        {
-            "src": "next.config.js",
-            "use": "@now/next"
-        }
-    ]
+  "name": "Solestium",
+  "version": 2,
+  "scope": "solestium",
+  "alias": "solestium.nl",
+  "regions": ["bru"],
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
 }
