@@ -31,6 +31,10 @@ export default () => (
           </li>
         </ul>
       </div>
+
+      <div className="sub-title">
+        Door <a href="https://jur.re">Jur.re</a>
+      </div>
     </div>
 
     <style jsx global>{`
@@ -49,6 +53,23 @@ export default () => (
       .title {
         font-size: 3rem;
         text-align: center;
+      }
+
+      .sub-title {
+        margin-top: 2rem;
+        color: #8e8e8e;
+        font-size: 0.75rem;
+        text-align: center;
+      }
+
+      .sub-title a {
+        color: #545454;
+        text-decoration: none;
+      }
+
+      .sub-title a:hover {
+        opacity: 0.8;
+        text-decoration: underline;
       }
 
       .projects {
