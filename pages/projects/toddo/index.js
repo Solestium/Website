@@ -26,7 +26,6 @@ const Toddo = () => (
         text-decoration: underline;
       }
     `}</style>
-
     <Footer />
   </Page>
 )

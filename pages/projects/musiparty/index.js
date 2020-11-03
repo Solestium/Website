@@ -27,7 +27,6 @@ const MusiParty = () => (
         text-decoration: underline;
       }
     `}</style>
-
     <Footer />
   </Page>
 )
