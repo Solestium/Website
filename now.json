@@ -3,7 +3,6 @@
   "version": 2,
   "scope": "solestium",
   "alias": "solestium.nl",
-  "regions": ["bru"],
   "builds": [
     {
       "src": "next.config.js",

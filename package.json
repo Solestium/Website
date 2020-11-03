@@ -10,10 +10,9 @@
     "format": "prettier --write {pages,layouts,components}/**/*.{js,jsx}"
   },
   "dependencies": {
-    "next": "^8.1.0",
-    "nprogress": "^0.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "next": "^10.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "husky": "^2.4.1",

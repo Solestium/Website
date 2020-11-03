@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import Page from '../layouts/app'
 
-export default () => (
+const Pages = () => (
   <Page>
     <div className="list">
       <div className="title">Solestium</div>
@@ -22,6 +22,11 @@ export default () => (
           <li>
             <Link href="/projects/toddo">
               <a>Toddo</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/projects/musiparty">
+              <a style={{ fontWeight: 'bold' }}>MusiParty</a>
             </Link>
           </li>
           <li>
@@ -98,3 +103,5 @@ export default () => (
     `}</style>
   </Page>
 )
+
+export default Pages

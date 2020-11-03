@@ -1,17 +1,16 @@
 import Head from 'next/head'
 import { Fragment } from 'react'
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <Fragment>
     <Head>
       <title>Solestium</title>
 
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
       <link
-        href="https://fonts.googleapis.com/css?family=Nunito"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
         rel="stylesheet"
-        type="text/css"
-      />
+      ></link>
     </Head>
 
     <main>{children}</main>
@@ -44,3 +43,5 @@ export default ({ children }) => (
     `}</style>
   </Fragment>
 )
+
+export default Layout
